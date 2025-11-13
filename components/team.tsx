@@ -16,7 +16,7 @@ interface ImageGridProps {
 export function TeamGrid({ title, images, backgroundImage }: ImageGridProps) {
   return (
     <div
-      className="w-full min-h-screen flex flex-col items-center justify-center px-4 py-12"
+      className="w-[90vw] h-[80vh] flex items-center justify-center relative overflow-hidden"
       style={{
         backgroundImage: backgroundImage ? `url('${backgroundImage}')` : undefined,
         backgroundSize: "cover",
@@ -25,7 +25,7 @@ export function TeamGrid({ title, images, backgroundImage }: ImageGridProps) {
       }}
     >
       {/* Dark overlay for better text contrast */}
-      {backgroundImage && <div className="absolute inset-0 bg-black/40" />}
+      {/* {backgroundImage && <div className="absolute inset-0 bg-black/40" />} */}
 
       {/* Content wrapper */}
       <div className="relative z-10 w-full flex flex-col items-center">

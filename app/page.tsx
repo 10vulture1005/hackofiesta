@@ -25,10 +25,17 @@ export default function Home() {
   ]
 
   return (
-    // <div className="w-[1000px]">
-    <div>
-      <TeamGrid title="Website" images={imageData} backgroundImage="backgrounds/tech-bg.png" />
-      // <TeamGrid title="Website" images={imageData} backgroundImage="backgrounds/tech-bg.png" />
-    // </div>
+      <div className="w-full min-h-screen bg-black flex flex-col gap-50 pt-25 pb-25 items-center justify-center">
+    {/* <div className="w-[75vw] h-[75vh] bg-black "> */}
+      <TeamGrid title="Website" images={imageData} backgroundImage="backgrounds/website-bg.png" />
+
+      <TeamGrid title="Overall Lead" images={imageData} backgroundImage="backgrounds/lead-bg.png" />
+      <TeamGrid title="Outreach" images={imageData} backgroundImage="backgrounds/outreach-bg.png" />
+      <TeamGrid title="CR" images={imageData} backgroundImage="backgrounds/cr-bg.png" />
+      <TeamGrid title="Logistics" images={imageData} backgroundImage="backgrounds/logistics-bg.png" />
+      <TeamGrid title="Media" images={imageData} backgroundImage="backgrounds/media-bg.png" />
+
+      {/* </div> */}
+     </div>
   )
 }
