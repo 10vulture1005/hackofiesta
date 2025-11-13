@@ -12,26 +12,6 @@ import { designTeam } from "@/constants/teams/design"
 import { techTeam } from "@/constants/teams/tech"
 
 export default function Home() {
-  const imageData = [
-    {
-      id: "1",
-      src: "/portfolio-image-1.jpg",
-      alt: "Portfolio image 1",
-      label: "Prashant",
-    },
-    {
-      id: "2",
-      src: "/portfolio-image-2.jpg",
-      alt: "Portfolio image 2",
-      label: "Siddharth",
-    },
-    {
-      id: "3",
-      src: "/portfolio-image-1.jpg",
-      alt: "Portfolio image 1",
-      label: "Prashant",
-    },
-  ]
 
   return (
       <div className="w-full min-h-screen bg-black flex flex-col gap-50 pt-25 pb-25 items-center justify-center">
