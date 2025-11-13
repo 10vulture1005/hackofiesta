@@ -30,7 +30,7 @@ export function TeamGrid({ title, images, backgroundImage }: ImageGridProps) {
       {/* Content wrapper */}
       <div className="relative z-10 w-full flex flex-col items-center">
         {/* Title */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center mb-12 md:mb-16">{title}</h1>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl grover-font font-bold text-white text-center mb-12 md:mb-16">{title}</h1>
 
         {/* Images Grid */}
         <div className="w-full max-w-6xl">

@@ -14,6 +14,8 @@ import { techTeam } from "@/constants/teams/tech"
 export default function Home() {
 
   return (
+    <>
+    {/* <h1 className="grover-font text-white bg-black text-6xl text-center pt-3 fixed m-auto z-10">Team</h1> */}
       <div className="w-full min-h-screen bg-black flex flex-col gap-50 pt-25 pb-25 items-center justify-center">
     {/* <div className="w-[75vw] h-[75vh] bg-black "> */}
       <TeamGrid title="Overall Lead" images={lead} backgroundImage="backgrounds/lead-bg.png" />
@@ -27,5 +29,6 @@ export default function Home() {
 
       {/* </div> */}
      </div>
+    </>
   )
 }
